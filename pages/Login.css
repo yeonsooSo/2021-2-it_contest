@@ -1,0 +1,248 @@
+
+.btn {
+  color: #707070;
+  border-radius: 32px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 2px 6px #d7dfe2, 0px 2px 6px #90a4ae;
+  /* font-family: */
+  font-weight: bold;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.newbie {
+  width: 130px;
+  height: 46px;
+  font-size: 15px;
+  background: #ffea5c;
+}
+.newbie:hover {
+  background-color: #fff5b3;
+}
+
+.login {
+  color: white;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  background: #b9c6d2;
+}
+.login:hover {
+  background-color: #d0d4d8;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 25px 11%;
+}
+.logo {
+  cursor: pointer;
+  margin-right: 10%;
+  height: 50px;
+  width: 130px;
+}
+.header_items li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  padding: 0px 2px;
+}
+
+/* .search {
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 0px 5px;
+  
+  border-radius: 50px;
+  font-size: 15px;
+  color: #707070;
+  background-color: #dde0ea;
+  font-weight: 300;
+} */
+.search_bar_container {
+  margin: 0px 70px;
+}
+input {
+  font-family: FontAwesome;
+  color: #000000;
+}
+
+input:focus {
+  outline: none;
+}
+form.box {
+  margin-right: 50px;
+}
+form.box input {
+  border: none;
+}
+form.box input[type="text"] {
+  height: 18px;
+
+  background-color: #e2e2e2;
+  width: 360px;
+  padding: 10px;
+  padding-left: 15px;
+  border-radius: 25px 0 0 25px;
+}
+form.box input[type="submit"] {
+  cursor: pointer;
+  height: 39px;
+  width: 50px;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 0 25px 25px 0;
+  color: #fff;
+  margin-left: -6px;
+}
+
+/* .search_bar_container {
+  height: 38px;
+  width: 400px;
+  background-color: #dde0ea;
+  padding: 0px 10px;
+  border-radius: 50px;
+  margin-right: 100px;
+} */
+i {
+  font-size: 20px;
+  color: #b2bce0;
+  margin-right: 3px;
+}
+
+
+/*MAIN*/
+
+.login-box{
+    border: 1px solid #949494;
+    background-color: #fafafa;
+    width: 480px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    box-shadow: 0px 0px 8px 1px grey;            
+}
+.input-box{
+    background-color: #E8ECF6;
+    border-color: #B4B4B4;
+    border-style: solid;
+    border-radius: 5px;
+    width: 340px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 70px;
+}
+.main-login{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+
+}
+.login-text{
+    margin-left: 70px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.login-btn{
+    background-color: #B9C6D2;
+    border-color: #B4B4B4;
+    border-style: solid;
+    border-radius: 8px;
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: 10px;
+    border-style: outset;
+    
+}
+.sign-btn{
+    font-size: 8px;
+    width: 60px;
+    height: 20px;
+    margin-left: 210px;
+    margin-top: -5px;
+}
+.question{
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+/*footer*/
+
+footer {
+    margin-top: 80px;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #bec5dd;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+  }
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  .socials li {
+    margin: 0 10px;
+  }
+  .socials a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .socials a i {
+    font-size: 1.1rem;
+    color: rgb(93, 106, 119);
+    transition: color 0.4s ease;
+  }
+  .socials a:hover i {
+    color: rgb(255, 208, 0);
+  }
+  
+  .footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  .footer-bottom span {
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+  }
