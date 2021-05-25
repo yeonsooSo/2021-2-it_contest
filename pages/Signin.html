@@ -5,6 +5,7 @@
         <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/352fde3883.js" crossorigin="anonymous"></script>
     <title>회원가입</title>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="Signin.css" />
 
@@ -24,17 +25,10 @@
 <body>
 
     <header>
-		<img class="logo" src="sope.png" alt="">
+		<img class="logo" src="img/sope.png" alt="">
 		<nav>
 			<ul class="header_items">
-				<li>
-					<div class="search_bar_container">
-						<form class="box">
-							<input type="text" placeholder="가게이름이나 메뉴를 검색해보세요!" class="search"/>
-							<input type="submit" value="&#xf002;">
-						</form>
-					</div>
-				</li>
+			
 				<li><a href="#"><i class="fas fa-user"></a></i></li>
 				<li><a href="#">
 					<button class="btn login">로그인</button>
@@ -51,17 +45,17 @@
         <h5 class="signin-text">학번</h5> 
         <input type="text" class="input-box" maxlength="8">
         <h5 class="signin-text">비밀번호</h5>
-        <input type="text" class="input-box" maxlength="14">
+        <input type="password" class="input-box" maxlength="14">
         <h5 class="signin-text">이름</h5>
         <input type="text" class="input-box" maxlength="14">
         <h5 class="signin-text">전화번호</h5>
         <input type="text" class="input-box" maxlength="11">
         <h5 class="signin-text">이메일 주소</h5>
-        <input type="text" class="input-box">
+        <input type="email" class="input-box">
 
         
         <p class="buttons"><input type="button" class="cancel-btn"; value="취소"; onclick="cancelClick()"> 
-            <input type="button" class="sign-btn"; value="등록"; onclick="signInClick()"></p>
+            <a href="Login.html"><input type="button" class="sign-btn"; value="등록"; onclick="signInClick()"></a></p>
 
      </form>     
     </div> 
