@@ -63,31 +63,13 @@ header {
   font-size: 35px;
 }
 
-.com {
-  margin-left: 400px;
-  text-align: center;
-  background-color: #ffd112;
+.joinBtn {
+  margin-left: 48%;
+}
+.con {
+  text-align: left;
 }
 
-.text-box {
-  border: none;
-  margin-left: 21%;
-}
-
-#nameField {
-  width: 900px;
-  height: 50px;
-  resize: vertical;
-}
-textarea {
-  width: 900px;
-  height: 400px;
-  resize: vertical;
-}
-.post-box {
-  align-items: center;
-  /* margin-right: 1050px; */
-}
 /*footer*/
 
 footer {
