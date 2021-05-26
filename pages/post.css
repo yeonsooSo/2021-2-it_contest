@@ -86,6 +86,16 @@ li {
   margin: 0;
 }
 
+.mod-del {
+  font-size: 20px;
+  margin-left: 75%;
+}
+/* .mod,
+.del {
+  height: 100px;
+  width: 15px;
+} */
+
 #ulTable {
   margin: 4% 0;
   margin-left: 20%;
