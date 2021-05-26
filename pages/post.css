@@ -65,10 +65,53 @@ header {
 
 .joinBtn {
   margin-left: 48%;
+  margin-top: 20px;
 }
 .con {
   text-align: left;
 }
+
+body {
+  line-height: 2em;
+}
+ul,
+li {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#ulTable {
+  margin: 4% 0;
+  margin-left: 20%;
+}
+
+#ulTable > li > ul {
+  clear: both;
+  padding: 0px auto;
+  position: relative;
+  min-width: 40px;
+}
+#ulTable > li > ul > li {
+  float: left;
+  font-size: 10pt;
+  border-bottom: 1px solid silver;
+  vertical-align: baseline;
+}
+
+#ulTable > li > ul > li:first-child {
+  width: 10%;
+} /*No 열 크기*/
+#ulTable > li > ul > li:first-child + li {
+  width: 45%;
+} /*제목 열 크기*/
+#ulTable > li > ul > li:first-child + li + li {
+  width: 20%;
+} /*작성일 열 크기*/
+#ulTable > li > ul > li:first-child + li + li + li {
+  width: 15%;
+} /*작성자 열 크기*/
 
 /*footer*/
 
