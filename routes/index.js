@@ -41,10 +41,10 @@ router.get('/', function(request, response){
               </div>
             </li>
             <li><a href="#"><i class="fas fa-user"></a></i></li>
-            <li><a href="Login.html">
+            <li><a href="/login">
               <button class="btn login">로그인</button>
             </a></li>
-            <li><a href="intro.html">
+            <li><a href="/intro">
               <button class="btn newbie">처음이신가요?</button>
             </a></li>
           </ul>
@@ -60,22 +60,22 @@ router.get('/', function(request, response){
               </a>
             </div>
             <div>
-              <a class="menu" href="#">
+              <a class="menu" href="/chicken">
                 <img class="menu_img" src="img/pizza.png"/>
               </a>
             </div>
             <div>
-              <a class="menu" href="#">
+              <a class="menu" href="/chicken">
                 <img class="menu_img" src="img/koreanfood.png"/>
               </a>
             </div>
             <div>
-              <a class="menu" href="#">
+              <a class="menu" href="/chicken">
                 <img class="menu_img" src="img/burger.png"/>
               </a>
             </div>
             <div>
-              <a class="menu" href="#">
+              <a class="menu" href="/chicken">
                 <img class="menu_img" src="img/tuna.png"/>
               </a>
             </div>
@@ -83,22 +83,22 @@ router.get('/', function(request, response){
           </div>
           <div class="menu_btns second">
             <div>
-              <a class="menu" href="#">
+              <a class="menu" href="/chicken">
                 <img class="menu_img" src="img/cake.png"/>
               </a>
             </div>
             <div>
-              <a class="menu" href="#">
+              <a class="menu" href="/chicken">
                 <img class="menu_img" src="img/steak.png"/>
               </a>
             </div>
             <div>
-              <a class="menu" href="#">
+              <a class="menu" href="/chicken">
                 <img class="menu_img" src="img/noodle.png"/>
               </a>
             </div>
             <div>
-              <a class="menu" href="#">
+              <a class="menu" href="/chicken">
                 <img class="menu_img" src="img/dish.png"/>
               </a>
             </div>
