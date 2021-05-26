@@ -1,3 +1,6 @@
+-- 로그인 데이터베이스
+CREATE DATABASE login;
+
 -- 각 카테고리별 데이터베이스 생성
 CREATE DATABASE chicken;
 CREATE DATABASE pizza;
@@ -8,6 +11,16 @@ CREATE DATABASE dessert;
 CREATE DATABASE asianfood;
 CREATE DATABASE chinesefood;
 CREATE DATABASE anything;
+
+-- 유저 로그인
+create table `user`(
+    -> `id` varchar(15) not null,
+    -> `pw` varchar(255) not null,
+    -> `name` varchar(30) not null,
+    -> `phoneNumber` varchar(255) not null,
+    -> `email` varchar(255) not null,
+    -> primary key(id)
+    -> );
 
 -- 저자
 CREATE TABLE `author` (
