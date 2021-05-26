@@ -49,6 +49,10 @@ header {
 
 /*main*/
 
+.post-title {
+  background-color: #ffd112;
+}
+
 .title-box {
   text-align: center;
   margin-bottom: 50px;
